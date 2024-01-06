@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/arun" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="Arun Singh, a 19-year-old third-year
+student pursuing a Bachelor's degree in
+Computer Science and Design at
+ Madhav Institute of Technology and Science in Gwalior,
+  is a dedicated and forward-thinking individual.
+  His primary areas of expertise lie in
+  Android development and
+ mastering data structures and algorithms using Java.
+  Alongside his academic pursuits, Arun has honed his
+   skills in front-end development, showcasing proficiency
+    in HTML, CSS, and JavaScript. Currently engaged in
+     Android app development, he
+ seamlessly integrates his knowledg
+ e of Java to create innovative and user-friendly
+ applications.
+Arun is more than just a technically adept student;
+ he brings a collaborative and enthusiastic spirit to
+  team projects, fostering an environment of creativity
+  and efficiency. His commitment to continuous learning
+  is evident in his proactive approach to staying abreast
+   of the latest technologies and industry trends.
+With a strong foundation in computer science and a
+burgeoning skill set, Arun Singh is poised to
+make significant contributions to the software
+development landscape. His proficiency in front-end
+ technologies, coupled with his expertise in Android
+ development and data structures, positions him as a
+  promising talent in the field. As he progresses
+   through his academic and professional journey,
+   Arun remains a valuable asset to any team or project,
+    offering a unique
+   blend of technical prowess, creativity,
+   and dedication to excellence."
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/arun" />
+
+
+</LinearLayout>
